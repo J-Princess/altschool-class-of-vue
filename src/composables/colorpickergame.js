@@ -14,5 +14,5 @@ export function usePicker() {
     message.value = `You loose [answer: ${colors[randomNumber]}]`;
   };
 
-  return { colors, message, matchColor };
+  return { colors, message, pickColor };
 }

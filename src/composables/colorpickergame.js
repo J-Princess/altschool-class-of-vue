@@ -1,7 +1,7 @@
 import { ref, reactive } from "@vue/reactivity";
 
 export function usePicker() {
-  const colors = ["green", "red", "blue", "purple"];
+  const colors = ref(["green", "red", "blue", "purple"]);
   let message = ref("Pick a color...");
 
   const pickColor = (value) => {
